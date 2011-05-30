@@ -107,7 +107,7 @@ public class GoogleTilesOverlay extends Overlay {
 				new Point(0, 0));
 		final int tileNeededToLeftOfCenter = centerXY.x - 1;
 		final int tileNeededToRightOfCenter = centerXY.x + 1;
-		final int tileNeededToTopOfCenter = centerXY.y - 1;
+		final int tileNeededToTopOfCenter = centerXY.y - 2;
 		final int tileNeededToBottomOfCenter = centerXY.y + 1;
 		final int mapTileUpperBound = 1 << zoomLevel;
 		// make sure the cache is big enough for all the tiles
